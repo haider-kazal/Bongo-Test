@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F59E285F24D214DE0035BAA8 /* ButtonWithLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E285E24D214DE0035BAA8 /* ButtonWithLoader.swift */; };
+		F59E286324D21B770035BAA8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E286224D21B770035BAA8 /* Coordinator.swift */; };
+		F59E286524D21B9C0035BAA8 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E286424D21B9C0035BAA8 /* AppCoordinator.swift */; };
+		F59E286B24D21EA10035BAA8 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E286A24D21EA10035BAA8 /* BaseController.swift */; };
+		F59E286D24D21EE40035BAA8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E286C24D21EE40035BAA8 /* BaseViewController.swift */; };
+		F59E287024D21F380035BAA8 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E286F24D21F380035BAA8 /* BaseViewModel.swift */; };
+		F59E287224D21F650035BAA8 /* ViewModelBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E287124D21F650035BAA8 /* ViewModelBased.swift */; };
+		F59E287524D21F870035BAA8 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E287424D21F870035BAA8 /* BaseView.swift */; };
+		F59E287724D21FA00035BAA8 /* ViewBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E287624D21FA00035BAA8 /* ViewBased.swift */; };
+		F59E287924D21FF00035BAA8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E287824D21FF00035BAA8 /* HomeViewController.swift */; };
+		F59E287C24D220200035BAA8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E287B24D220200035BAA8 /* HomeViewModel.swift */; };
+		F59E287F24D2206D0035BAA8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E287E24D2206D0035BAA8 /* HomeView.swift */; };
+		F59E288224D220E80035BAA8 /* HomeAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E288124D220E80035BAA8 /* HomeAPIService.swift */; };
+		F59E288424D2219E0035BAA8 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E288324D2219E0035BAA8 /* Endpoint.swift */; };
 		F5B5E18424CEE0DA00EC36C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B5E18324CEE0DA00EC36C3 /* AppDelegate.swift */; };
 		F5B5E18624CEE0DA00EC36C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B5E18524CEE0DA00EC36C3 /* SceneDelegate.swift */; };
-		F5B5E18824CEE0DA00EC36C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B5E18724CEE0DA00EC36C3 /* ViewController.swift */; };
-		F5B5E18B24CEE0DA00EC36C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B5E18924CEE0DA00EC36C3 /* Main.storyboard */; };
 		F5B5E18D24CEE0E000EC36C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B5E18C24CEE0E000EC36C3 /* Assets.xcassets */; };
 		F5B5E19024CEE0E000EC36C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B5E18E24CEE0E000EC36C3 /* LaunchScreen.storyboard */; };
 		F5B5E19B24CEE0E100EC36C3 /* BongoBDTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B5E19A24CEE0E100EC36C3 /* BongoBDTestTests.swift */; };
+		F5DD441224D230B800AF94DA /* BongoTestTextOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD441124D230B800AF94DA /* BongoTestTextOperations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +40,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F59E285E24D214DE0035BAA8 /* ButtonWithLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithLoader.swift; sourceTree = "<group>"; };
+		F59E286224D21B770035BAA8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F59E286424D21B9C0035BAA8 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		F59E286A24D21EA10035BAA8 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		F59E286C24D21EE40035BAA8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		F59E286F24D21F380035BAA8 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		F59E287124D21F650035BAA8 /* ViewModelBased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBased.swift; sourceTree = "<group>"; };
+		F59E287424D21F870035BAA8 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		F59E287624D21FA00035BAA8 /* ViewBased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBased.swift; sourceTree = "<group>"; };
+		F59E287824D21FF00035BAA8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F59E287B24D220200035BAA8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F59E287E24D2206D0035BAA8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F59E288124D220E80035BAA8 /* HomeAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAPIService.swift; sourceTree = "<group>"; };
+		F59E288324D2219E0035BAA8 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		F5B5E18024CEE0DA00EC36C3 /* BongoBDTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BongoBDTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B5E18324CEE0DA00EC36C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5B5E18524CEE0DA00EC36C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F5B5E18724CEE0DA00EC36C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F5B5E18A24CEE0DA00EC36C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5B5E18C24CEE0E000EC36C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5B5E18F24CEE0E000EC36C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5B5E19124CEE0E000EC36C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5B5E19624CEE0E100EC36C3 /* BongoBDTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BongoBDTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B5E19A24CEE0E100EC36C3 /* BongoBDTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BongoBDTestTests.swift; sourceTree = "<group>"; };
 		F5B5E19C24CEE0E100EC36C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5DD441124D230B800AF94DA /* BongoTestTextOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BongoTestTextOperations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,114 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F59E285D24D214B40035BAA8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F5DD441124D230B800AF94DA /* BongoTestTextOperations.swift */,
+				F59E285E24D214DE0035BAA8 /* ButtonWithLoader.swift */,
+				F59E288324D2219E0035BAA8 /* Endpoint.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F59E286024D21B270035BAA8 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F59E286624D21E170035BAA8 /* Initial */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F59E286124D21B680035BAA8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F59E286924D21E890035BAA8 /* Controllers */,
+				F59E286824D21E800035BAA8 /* Coordinators */,
+				F59E287324D21F750035BAA8 /* Views */,
+				F59E286E24D21EF50035BAA8 /* View Models */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F59E286624D21E170035BAA8 /* Initial */ = {
+			isa = PBXGroup;
+			children = (
+				F59E288024D220CF0035BAA8 /* Services */,
+				F59E287D24D220610035BAA8 /* Views */,
+				F59E286724D21E1E0035BAA8 /* View Controllers */,
+				F59E287A24D220040035BAA8 /* View Models */,
+			);
+			path = Initial;
+			sourceTree = "<group>";
+		};
+		F59E286724D21E1E0035BAA8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F59E287824D21FF00035BAA8 /* HomeViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F59E286824D21E800035BAA8 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				F59E286224D21B770035BAA8 /* Coordinator.swift */,
+				F59E286424D21B9C0035BAA8 /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		F59E286924D21E890035BAA8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F59E286A24D21EA10035BAA8 /* BaseController.swift */,
+				F59E286C24D21EE40035BAA8 /* BaseViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F59E286E24D21EF50035BAA8 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				F59E286F24D21F380035BAA8 /* BaseViewModel.swift */,
+				F59E287124D21F650035BAA8 /* ViewModelBased.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		F59E287324D21F750035BAA8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F59E287424D21F870035BAA8 /* BaseView.swift */,
+				F59E287624D21FA00035BAA8 /* ViewBased.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F59E287A24D220040035BAA8 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				F59E287B24D220200035BAA8 /* HomeViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		F59E287D24D220610035BAA8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F59E287E24D2206D0035BAA8 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F59E288024D220CF0035BAA8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F59E288124D220E80035BAA8 /* HomeAPIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		F5B5E17724CEE0DA00EC36C3 = {
 			isa = PBXGroup;
 			children = (
@@ -79,13 +213,11 @@
 		F5B5E18224CEE0DA00EC36C3 /* BongoBDTest */ = {
 			isa = PBXGroup;
 			children = (
-				F5B5E18324CEE0DA00EC36C3 /* AppDelegate.swift */,
-				F5B5E18524CEE0DA00EC36C3 /* SceneDelegate.swift */,
-				F5B5E18724CEE0DA00EC36C3 /* ViewController.swift */,
-				F5B5E18924CEE0DA00EC36C3 /* Main.storyboard */,
-				F5B5E18C24CEE0E000EC36C3 /* Assets.xcassets */,
-				F5B5E18E24CEE0E000EC36C3 /* LaunchScreen.storyboard */,
-				F5B5E19124CEE0E000EC36C3 /* Info.plist */,
+				F5B5E1A524CEE58C00EC36C3 /* App */,
+				F59E286124D21B680035BAA8 /* Base */,
+				F59E286024D21B270035BAA8 /* Features */,
+				F59E285D24D214B40035BAA8 /* Utilities */,
+				F5B5E1A624CEE5AE00EC36C3 /* Supporting Files */,
 			);
 			path = BongoBDTest;
 			sourceTree = "<group>";
@@ -97,6 +229,25 @@
 				F5B5E19C24CEE0E100EC36C3 /* Info.plist */,
 			);
 			path = BongoBDTestTests;
+			sourceTree = "<group>";
+		};
+		F5B5E1A524CEE58C00EC36C3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F5B5E18324CEE0DA00EC36C3 /* AppDelegate.swift */,
+				F5B5E18524CEE0DA00EC36C3 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F5B5E1A624CEE5AE00EC36C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5B5E18C24CEE0E000EC36C3 /* Assets.xcassets */,
+				F5B5E18E24CEE0E000EC36C3 /* LaunchScreen.storyboard */,
+				F5B5E19124CEE0E000EC36C3 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +333,6 @@
 			files = (
 				F5B5E19024CEE0E000EC36C3 /* LaunchScreen.storyboard in Resources */,
 				F5B5E18D24CEE0E000EC36C3 /* Assets.xcassets in Resources */,
-				F5B5E18B24CEE0DA00EC36C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +350,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5B5E18824CEE0DA00EC36C3 /* ViewController.swift in Sources */,
+				F59E287724D21FA00035BAA8 /* ViewBased.swift in Sources */,
+				F59E287224D21F650035BAA8 /* ViewModelBased.swift in Sources */,
+				F59E286524D21B9C0035BAA8 /* AppCoordinator.swift in Sources */,
+				F59E288224D220E80035BAA8 /* HomeAPIService.swift in Sources */,
+				F59E287F24D2206D0035BAA8 /* HomeView.swift in Sources */,
+				F59E285F24D214DE0035BAA8 /* ButtonWithLoader.swift in Sources */,
+				F59E286B24D21EA10035BAA8 /* BaseController.swift in Sources */,
+				F59E286324D21B770035BAA8 /* Coordinator.swift in Sources */,
+				F59E287024D21F380035BAA8 /* BaseViewModel.swift in Sources */,
+				F59E286D24D21EE40035BAA8 /* BaseViewController.swift in Sources */,
+				F59E287C24D220200035BAA8 /* HomeViewModel.swift in Sources */,
 				F5B5E18424CEE0DA00EC36C3 /* AppDelegate.swift in Sources */,
+				F59E287524D21F870035BAA8 /* BaseView.swift in Sources */,
+				F59E287924D21FF00035BAA8 /* HomeViewController.swift in Sources */,
+				F5DD441224D230B800AF94DA /* BongoTestTextOperations.swift in Sources */,
+				F59E288424D2219E0035BAA8 /* Endpoint.swift in Sources */,
 				F5B5E18624CEE0DA00EC36C3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,14 +389,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F5B5E18924CEE0DA00EC36C3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5B5E18A24CEE0DA00EC36C3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F5B5E18E24CEE0E000EC36C3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,7 +519,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BongoBDTest/Info.plist;
+				DEVELOPMENT_TEAM = 7NVKB74E53;
+				INFOPLIST_FILE = "BongoBDTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,7 +537,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BongoBDTest/Info.plist;
+				DEVELOPMENT_TEAM = 7NVKB74E53;
+				INFOPLIST_FILE = "BongoBDTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,6 +556,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NVKB74E53;
 				INFOPLIST_FILE = BongoBDTestTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -419,6 +578,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NVKB74E53;
 				INFOPLIST_FILE = BongoBDTestTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (

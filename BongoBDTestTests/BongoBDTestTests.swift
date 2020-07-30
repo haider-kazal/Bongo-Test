@@ -10,25 +10,45 @@ import XCTest
 @testable import BongoBDTest
 
 class BongoBDTestTests: XCTestCase {
-
+    private var textOperation: BongoTestTextOperations!
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        super.setUp()
+        textOperation = .init()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        textOperation = nil
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testLastCharacter() throws {
+        let text = "A"
+        let lastCharacter = textOperation.lastCharacter(from: text)!
+        
+        XCTAssertTrue(text == String(lastCharacter))
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testEmptyCharacter() throws {
+        let text = ""
+        
+        XCTAssertNil(textOperation.lastCharacter(from: text))
     }
-
+    
+    func testTenthCharacterFromTenSizeArray() throws {
+        let text = "ABCDEFGHIJ"
+        let tenthCharacter = textOperation.everyTenthCharacter(from: text).first!
+        
+        XCTAssertTrue(tenthCharacter == Character("J"))
+    }
+    
+    func testUniqueWordsWithCount() throws {
+        let text = "A\n A A B B C D E"
+        let wordsWithCounts = textOperation.uniqueWordsWithCount(from: text)
+        
+        XCTAssertTrue(wordsWithCounts["A"] == 3)
+        XCTAssertTrue(wordsWithCounts["B"] == 2)
+        XCTAssertTrue(wordsWithCounts["C"] == 1)
+        XCTAssertTrue(wordsWithCounts["D"] == 1)
+        XCTAssertTrue(wordsWithCounts["E"] == 1)
+    }
 }
